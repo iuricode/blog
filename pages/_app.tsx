@@ -1,16 +1,19 @@
-import type { AppProps } from "next/app";
-import Head from "next/head";
-import "@/styles/globals.css";
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import React from 'react';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <div className="container">
+    <React.Fragment>
       <Head>
         <title>Teste Blog</title>
       </Head>
-      <Component {...pageProps} />
-    </div>
+      <div className="container">
+        <Component {...pageProps} />
+      </div>
+    </React.Fragment>
   );
-}
+};
 
 export default MyApp;
