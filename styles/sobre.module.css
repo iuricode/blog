@@ -1,0 +1,14 @@
+.about h2 {
+  font-size: 3.2rem;
+}
+
+.about p {
+  font-size: 1.8rem;
+  line-height: 160%;
+  margin: 32px 0px;
+}
+
+.about span,
+.about a {
+  color: var(--color-primary);
+}

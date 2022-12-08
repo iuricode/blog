@@ -1,0 +1,43 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 40px;
+  padding: 80px 24px;
+}
+
+.list > a {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.list li {
+  background-color: var(--color-dark-200);
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 2px;
+  padding: 32px;
+}
+
+.list h2 {
+  font-size: 2.4rem;
+  color: var(--color-white);
+}
+
+.list li > p {
+  margin: 24px 0px;
+  font-size: 1.8rem;
+  color: var(--color-white-200);
+}
+
+.list span {
+  display: flex;
+  gap: 16px;
+}
+
+.list span p {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
