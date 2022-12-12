@@ -6,12 +6,12 @@ const Document = () => {
       <Head>
         <meta charSet="utf-8" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" type="image/png" href="/logo-iuricode.svg"></link>
+        <link rel="icon" type="image/png" href="/logo-page.svg"></link>
       </Head>
       <body>
         <Main />

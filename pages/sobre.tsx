@@ -8,7 +8,7 @@ import styles from "../styles/sobre.module.css";
 const Sobre = () => {
   return (
     <React.Fragment>
-      <Head title="Blog | Iuri Silva - Sobre" />
+      <Head title="Blog // Iuri Silva - Sobre" />
       <div className="containerFlexBox">
         <Menu />
         <section className="containerMDX containerPadding">

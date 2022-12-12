@@ -22,7 +22,6 @@
 
 .containerNav nav ul li a {
   font-size: 2rem;
-  color: var(--color-white-200);
 }
 
 .containerNav nav ul li a:hover {

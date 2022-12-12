@@ -8,7 +8,7 @@ import Menu from "../src/components/menu";
 const Home = ({ posts }: { posts: PostMeta[] }) => {
   return (
     <React.Fragment>
-      <Head title="Blog | Iuri Silva - Início" />
+      <Head title="Blog // Iuri Silva - Início" />
       <div className="containerFlexBox">
         <Menu />
         <Articles posts={posts} />

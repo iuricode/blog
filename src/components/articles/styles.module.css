@@ -42,3 +42,10 @@
   color: var(--color-primary);
   font-weight: 400;
 }
+
+@media screen and (max-width: 688px) {
+  .list h2 {
+    font-size: 2.4rem;
+    line-height: 140%;
+  }
+}
