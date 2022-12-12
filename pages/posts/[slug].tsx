@@ -23,7 +23,7 @@ const PostPage = ({ post }: { post: MDXPost }) => {
       <Head title={post.meta.title} />
       <React.Fragment>
         <Menu />
-        <div className="container containerPadding postMDX">
+        <div className="containerMDX containerPadding postMDX">
           <MDXRemote {...post.source} components={{ Image }} />
         </div>
         <Footer />

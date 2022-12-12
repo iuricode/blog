@@ -8,7 +8,7 @@ const Menu = () => {
       <div className="container">
         <div className={styles.containerNav}>
           <div className={styles.profileMenu}>
-            <img src="https://github.com/iuricode.png" alt="" />
+            <img src="/iuricode.jpg" alt="Foto ilustrativa do iuricode" />
             <h2>Blog | Iuri Silva</h2>
           </div>
           <nav>

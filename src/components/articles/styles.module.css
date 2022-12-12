@@ -22,13 +22,13 @@
 }
 
 .list h2 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   color: var(--color-white);
 }
 
 .list li > p {
   margin: 24px 0px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--color-white-200);
 }
 
@@ -38,6 +38,7 @@
 }
 
 .list span p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--color-primary);
+  font-weight: 400;
 }

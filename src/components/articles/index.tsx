@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const Articles = ({ posts }: { posts: PostMeta[] }) => {
   return (
-    <ul className={`container ${styles.list}`}>
+    <ul className={`containerMDX ${styles.list}`}>
       {posts.map((post, key) => (
         <Link href={`/posts/${post.slug}`} key={key}>
           <li key={post.slug}>

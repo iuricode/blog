@@ -11,7 +11,7 @@ const Sobre = () => {
       <Head title="Blog | Iuri Silva - Sobre" />
       <div className="containerFlexBox">
         <Menu />
-        <section className="container containerPadding">
+        <section className="containerMDX containerPadding">
           <div className={styles.about}>
             <h2>Hello World</h2>
 
@@ -28,7 +28,7 @@ const Sobre = () => {
               tentando personalizá-lo e nem conseguia ver o tempo passar. A
               emoção de ter o poder de estruturar páginas por conta própria foi
               incrível. É como lego. Você começa peça por peça, ninguém entende
-              o que está construindo e pronto... você tem um castelo.
+              o que está construindo e pronto... você tem um castelo de códigos.
             </p>
 
             <p>
@@ -36,8 +36,8 @@ const Sobre = () => {
               <Link href="https://iuricode.com/" target="_blank">
                 portfólio
               </Link>
-              . Mas se sinta livre para conhecer eu em outros lugares além do
-              castelo:{" "}
+              . Mas se sinta livre para conhecer minhas outras construções além
+              do castelo:{" "}
               <Link href="https://www.instagram.com/iuricode/" target="_blank">
                 Instagram
               </Link>

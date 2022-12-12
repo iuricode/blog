@@ -1,11 +1,11 @@
 :root {
   --color-primary: #ff3a5e;
 
-  --color-dark: #0a0c0f;
-  --color-dark-200: #101217;
+  --color-dark: #040405;
+  --color-dark-200: #09090b;
 
   --color-white: #ffffff;
-  --color-white-200: #d6d6d6;
+  --color-white-200: #c8c8c8;
 
   --gap-8: 8px;
   --gap-16: 16px;
@@ -33,7 +33,12 @@ ol {
 }
 
 li {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  color: var(--color-white-200);
+}
+
+li::marker {
+  color: var(--color-primary);
 }
 
 a {
@@ -49,9 +54,14 @@ img {
 
 button {
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Archivo", sans-serif;
   cursor: pointer;
   font-weight: 500;
+}
+
+strong {
+  font-weight: 500;
+  color: var(--color-white);
 }
 
 h1,
@@ -67,43 +77,57 @@ h6 {
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 code {
-  font-size: 1.8rem;
-  line-height: 160%;
+  font-size: 2rem;
+  line-height: 170%;
 }
 
 p {
   margin: 0;
   color: var(--color-white-200);
-  font-size: 1.8rem;
-  line-height: 160%;
+  font-size: 2rem;
+  line-height: 170%;
+  font-weight: 300;
 }
 
 .postMDX h1 {
-  margin-bottom: 40px;
+  text-align: center;
+}
+
+.postMDX h1 a:nth-child(1) {
+  color: var(--color-white);
+}
+
+.postMDX ul,
+.postMDX li {
+  list-style: inside;
+}
+
+.postMDX h1 {
+  margin-bottom: 48px;
 }
 
 .postMDX h2 {
-  margin: 24px 0px;
+  margin: 32px 0px;
 }
 
 .postMDX h3 {
-  margin: 24px 0px;
+  margin: 32px 0px;
 }
 
 .postMDX p {
-  margin: 24px 0px;
+  margin: 32px 0px;
 }
 
 .postMDX ul {
@@ -111,14 +135,14 @@ p {
 }
 
 .postMDX li {
-  line-height: 160%;
+  line-height: 170%;
 }
 
 body {
   overflow-x: hidden;
   background-color: var(--color-dark);
   color: var(--color-white);
-  font-family: "Inter", sans-serif;
+  font-family: "Archivo", sans-serif;
   min-height: 100vh;
 }
 
@@ -128,7 +152,13 @@ html {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.containerMDX {
+  max-width: 768px;
   margin: 0 auto;
   padding: 0px 24px;
 }
@@ -142,4 +172,8 @@ html {
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
+}
+
+footer a {
+  color: var(--color-primary);
 }
