@@ -1,9 +1,9 @@
-import { getAllPosts, PostMeta } from "../src/api";
-import Articles from "../src/components/articles";
+import { getAllPosts, PostMeta } from "../api";
+import Articles from "../components/articles";
 import React from "react";
-import Head from "../src/infra/head";
-import Footer from "../src/components/footer";
-import Menu from "../src/components/menu";
+import Head from "../infra/head";
+import Footer from "../components/footer";
+import Menu from "../components/menu";
 
 const Home = ({ posts }: { posts: PostMeta[] }) => {
   return (

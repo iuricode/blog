@@ -5,12 +5,12 @@ import { serialize } from "next-mdx-remote/serialize";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeHighlight from "rehype-highlight";
-import { getPostFromSlug, getSlugs, PostMeta } from "../../src/api";
+import { getPostFromSlug, getSlugs, PostMeta } from "../../api";
 import "highlight.js/styles/atom-one-dark.css";
 import React from "react";
-import Head from "../../src/infra/head";
-import Menu from "../../src/components/menu";
-import Footer from "../../src/components/footer";
+import Head from "../../infra/head";
+import Menu from "../../components/menu";
+import Footer from "../../components/footer";
 
 interface MDXPost {
   source: MDXRemoteSerializeResult<Record<string, unknown>>;

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./styles.module.css";
 
 const Footer = () => {
@@ -18,7 +19,12 @@ const Footer = () => {
 
             <div>
               <p>Powered by</p>
-              <img src="/logo-iuricode.svg" alt="Logo iuricode" />
+              <Image
+                src="/logo-iuricode.svg"
+                alt="Logo iuricode"
+                width="56"
+                height="56"
+              />
             </div>
           </section>
         </div>

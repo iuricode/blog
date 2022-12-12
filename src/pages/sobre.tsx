@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import Footer from "../src/components/footer";
-import Menu from "../src/components/menu";
-import Head from "../src/infra/head";
+import Footer from "../components/footer";
+import Menu from "../components/menu";
+import Head from "../infra/head";
 import styles from "../styles/sobre.module.css";
 
 const Sobre = () => {

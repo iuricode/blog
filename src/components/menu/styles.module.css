@@ -20,12 +20,13 @@
   font-size: 2.4rem;
 }
 
-.containerNav nav ul li a {
+.containerNav nav a {
   font-size: 2rem;
+  color: var(--color-white-200);
 }
 
 .containerNav nav ul li a:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .profileMenu {
