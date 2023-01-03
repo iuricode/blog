@@ -24,25 +24,31 @@ Para entender melhor essa metodologia temos que saber o que quer dizer o Block, 
 
 ## O que é Bloco?
 
-Blocos podem ser definidos como componentes que são maiores e/ou reutilizáveis na sua aplicação. Pense nesses elementos como sendo o pai, uma vez que que os Elementos e os Modificadores estarão dentro deles. Por exemplo: menu, cabeçalho, rodapé, etc…
+Blocos podem ser definidos como componentes que são maiores e/ou reutilizáveis na sua aplicação. Pense nesses elementos como sendo o pai, uma vez que que os Elementos e os Modificadores estarão dentro deles. Por exemplo: menu, cabeçalho, card, rodapé, etc…
+
+![Block](/post2-1.png)
 
 ## O que é Elemento?
 
-Elementos são filhos dos Blocos. Vale ressaltar que um Elemento só pode ter apenas um pai. Por exemplo: item de menu, título do cabeçalho, redes sociais do rodapé, etc…
+Elementos são filhos dos Blocos. Vale ressaltar que um Elemento só pode ter apenas um pai. Por exemplo: item do menu, título do card, redes sociais do rodapé, etc…
 
 Elementos têm uma regra específica de escrita, sendo uma classe CSS composta de Nome do Bloco + dois underlines + nome do Elemento: .[Bloco]\_\_[Elemento].
 
-Por exemplo, se você tem um Bloco .menu, um Elemento dele pode ser .menu**item ou .menu**link.
+Por exemplo, se você tem um Bloco .card, um Elemento dele pode ser .card__item ou .card__link.
 
-Dentro das regras de escrita de BEM, esses dois underlines representam um Elemento. Perceba que isso não viola as regras de nomenclatura de CSS, ao mesmo tempo em que deixa claríssimo do quê se trata, pois é de conhecimento geral que \_\_ é um Elemento de BEM.
+Dentro das regras de escrita de BEM, esses dois underlines representam um Elemento. Perceba que isso não viola as regras de nomenclatura de CSS, ao mesmo tempo em que deixa claríssimo do quê se trata, pois é de conhecimento geral que __ é um Elemento de BEM.
+
+![Element](/post2-2.png)
 
 ## O que é Modificador?
 
 Modificadores representam os diferentes estados ou estilos que um Elemento ou Bloco podem ter. Por exemplo: escondido, visivel, tem fundo, tem borda, borda redonda, etc…
 
-Sua regra de escrita é uma classe composta pelo nome de um Bloco ou Modificador + dois hífens + o nome do Modificador: [Bloco|Elemento]--[Modificador].
+Sua regra de escrita é uma classe composta pelo nome de um Bloco ou Modificador + dois hífens + o nome do Modificador: [Bloco]__[Elemento]--[Modificador].
 
-Seguindo o exemplo, poderia haver um modificador para o menu .menu--dark para um versão escura; uma versão do menu fixa com .menu--fixed ou; para links desabilitados, .menu\_\_link--disabled.
+Seguindo o exemplo, poderia haver um modificador para o card .card__link--hover para um versão escura;
+
+![Modifier](/post2-3.png)
 
 ---
 
