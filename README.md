@@ -14,7 +14,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - Next.js
 - TypeScript
-- CSS
+- CSS Module
 
 ---
 

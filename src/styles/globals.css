@@ -43,7 +43,7 @@ li::marker {
 
 a {
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 img {
@@ -102,10 +102,6 @@ p {
 
 .postMDX h1 {
   text-align: center;
-}
-
-.postMDX h1 a:nth-child(1) {
-  color: var(--color-white);
 }
 
 .postMDX ul,

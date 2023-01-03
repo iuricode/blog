@@ -26,11 +26,8 @@ const Menu = () => {
                 <Link href="/sobre">sobre</Link>
               </li>
               <li>
-                <Link
-                  href="https://hotmart.com/pt-br/marketplace/produtos/efront/L66686646K"
-                  target="_blank"
-                >
-                  livro
+                <Link href="https://www.iuricode.com/efront/" target="_blank">
+                  ebook
                 </Link>
               </li>
             </ul>
