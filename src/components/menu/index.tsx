@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import {FaBook as Book} from 'react-icons/fa';
+import {ImBooks as Blog} from 'react-icons/im';
+import {MdOutlinePersonSearch as About} from 'react-icons/md';
 import styles from "./styles.module.css";
+
 
 const Menu = () => {
   return (
@@ -20,14 +24,14 @@ const Menu = () => {
           <nav>
             <ul>
               <li>
-                <Link href="/">blog</Link>
+                <Link href="/"><Blog/> blog</Link>
               </li>
               <li>
-                <Link href="/sobre">sobre</Link>
+                <Link href="/sobre"><About/> sobre</Link>
               </li>
               <li>
                 <Link href="https://www.iuricode.com/efront/" target="_blank">
-                  ebook
+                  <Book/> ebook
                 </Link>
               </li>
             </ul>

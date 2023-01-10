@@ -19,6 +19,11 @@
   flex-grow: 1;
   border-radius: 2px;
   padding: 32px;
+  transition: .5s;
+}
+.list li:hover{
+  transform: translateY(-10px);
+  box-shadow: -7px 6px 7px 0px rgb(53 53 53 / 21%);
 }
 
 .list h2 {
