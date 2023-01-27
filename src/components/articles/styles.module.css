@@ -19,6 +19,7 @@
   flex-grow: 1;
   border-radius: 2px;
   padding: 32px;
+  border: 2px solid var(--color-dark-400);
 }
 
 .list h2 {

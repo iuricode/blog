@@ -20,14 +20,14 @@ const Menu = () => {
           <nav>
             <ul>
               <li>
-                <Link href="/">blog</Link>
+                <Link href="/">Blog</Link>
               </li>
               <li>
-                <Link href="/sobre">sobre</Link>
+                <Link href="/sobre">Sobre</Link>
               </li>
               <li>
                 <Link href="https://www.iuricode.com/efront/" target="_blank">
-                  ebook
+                  Ebook
                 </Link>
               </li>
             </ul>
