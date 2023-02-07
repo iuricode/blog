@@ -27,7 +27,7 @@ const Menu = () => {
               </li>
               <li>
                 <Link href="https://www.iuricode.com/efront/" target="_blank">
-                  Ebook
+                  Meu ebook
                 </Link>
               </li>
             </ul>

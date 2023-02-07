@@ -134,6 +134,10 @@ p {
   line-height: 170%;
 }
 
+.postMDX img {
+  width: 100%;
+}
+
 body {
   overflow-x: hidden;
   background-color: var(--color-dark);
