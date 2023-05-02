@@ -131,7 +131,7 @@ const Setup = () => {
                     target="_blank"
                    rel="noreferrer"
                   >
-                    Monitor - LG 23.8' IPS, Full HD, HDMI, VESA, Ajuste de
+                    Monitor - LG 23.8 IPS, Full HD, HDMI, VESA, Ajuste de
                     Ângulo - 24MK430H
                   </a>
                 </li>
