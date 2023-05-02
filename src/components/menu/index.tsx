@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "./styles.module.css";
 
 const Menu = () => {
@@ -9,25 +8,22 @@ const Menu = () => {
       <div className="container">
         <div className={styles.containerNav}>
           <div className={styles.profileMenu}>
-            <Image
-              src="/iuricode.jpg"
-              alt="Foto ilustrativa do iuricode"
-              width="720"
-              height="400"
-            />
-            <h2>Blog | Iuri Silva</h2>
+            <h2>iuricode</h2>
           </div>
           <nav>
             <ul>
               <li>
-                <Link href="/">Blog</Link>
+                <Link href="/">blog</Link>
               </li>
               <li>
-                <Link href="/sobre">Sobre</Link>
+                <Link href="/sobre">sobre</Link>
+              </li>
+              <li>
+                <Link href="/setup">setup</Link>
               </li>
               <li>
                 <Link href="https://www.iuricode.com/efront/" target="_blank">
-                  Meu ebook
+                  ebook
                 </Link>
               </li>
             </ul>

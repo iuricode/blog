@@ -17,7 +17,7 @@ const Sobre = () => {
 
             <p>
               Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora). Sou
-              freelancer como Front-end developer e UI Designer desde 2020. Sou
+              freelancer como Frontend Developer e UI Designer desde 2020. Sou
               extremamente apaixonado por café e cultura japonesa.
             </p>
 
@@ -37,24 +37,20 @@ const Sobre = () => {
                 portfólio
               </Link>
               . Mas se sinta livre para conhecer minhas outras construções além
-              do castelo:{" "}
+              do castelo no {" "}
               <Link href="https://www.instagram.com/iuricode/" target="_blank">
                 Instagram
               </Link>
               ,{" "}
               <Link href="https://github.com/iuricode" target="_blank">
                 GitHub
-              </Link>
-              ,{" "}
+              </Link>{" "}
+              e{" "}
               <Link
                 href="https://www.linkedin.com/in/iuricode/"
                 target="_blank"
               >
                 Linkedin
-              </Link>{" "}
-              e{" "}
-              <Link href="https://discord.gg/wNCWTVuxyz" target="_blank">
-                Discord
               </Link>
               .
             </p>

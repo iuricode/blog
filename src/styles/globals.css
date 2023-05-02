@@ -1,12 +1,12 @@
 :root {
-  --color-primary: #ff3a5e;
+  --color-primary: #986dff;
 
-  --color-dark: #111;
+  --color-dark: #111111;
   --color-dark-200: #151515;
   --color-dark-400: #1f1f1f;
 
   --color-white: #ffffff;
-  --color-white-200: #c8c8c8;
+  --color-white-200: #9ca3af;
 
   --gap-8: 8px;
   --gap-16: 16px;
@@ -169,7 +169,7 @@ html {
 
 .containerFlexBox {
   display: flex;
-  justify-content: space-between;
+  
   flex-direction: column;
   min-height: 100vh;
 }

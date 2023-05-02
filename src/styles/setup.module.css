@@ -1,0 +1,28 @@
+.setup h2 {
+  font-size: 3.2rem;
+  margin-bottom: 32px;
+}
+
+.setup div h3 {
+  font-size: 2.4rem;
+  margin: 24px 0;
+}
+
+.setup div ul {
+  margin-top: 40px;
+}
+
+.setup div ul li {
+  line-height: 180%;
+}
+
+.setup div ul li::before {
+  content: "\2022 ";
+  color: var(--color-primary);
+  margin-right: 16px;
+}
+
+.setup div ul li a {
+  text-decoration: underline;
+  font-size: 1.8rem;
+}
