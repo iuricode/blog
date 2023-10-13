@@ -1,0 +1,25 @@
+.publi section {
+  margin-bottom: 80px;
+}
+
+.publi h2 {
+  font-size: 2.4rem;
+}
+
+.publi p {
+  font-size: 2rem;
+  margin: 24px 0 40px 0;
+}
+
+.publi a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  padding: 12px 32px;
+}
+
+.publi a:hover {
+  background-color: #e8e8e8;
+}

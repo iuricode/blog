@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const Menu = () => {
   return (
     <header className={styles.containerMenu}>
-      <div className="container">
+      <div className="containerMDX">
         <div className={styles.containerNav}>
           <div className={styles.profileMenu}>
             <h2>iuricode</h2>

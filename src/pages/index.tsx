@@ -4,6 +4,8 @@ import React from "react";
 import Head from "../infra/head";
 import Footer from "../components/footer";
 import Menu from "../components/menu";
+import Profile from "../components/profile";
+import Publi from "../components/publi";
 
 const Home = ({ posts }: { posts: PostMeta[] }) => {
   return (
@@ -11,7 +13,9 @@ const Home = ({ posts }: { posts: PostMeta[] }) => {
       <Head title="Blog // Iuri Silva" />
       <div className="containerFlexBox">
         <Menu />
+        <Profile />
         <Articles posts={posts} />
+        <Publi />
         <Footer />
       </div>
     </React.Fragment>

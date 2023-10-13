@@ -1,0 +1,27 @@
+.profile section {
+  padding-top: 48px;
+}
+
+.profile h2 {
+  font-size: 3.2rem;
+}
+
+.profile span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 24px 0;
+}
+
+.profile img {
+  width: 24px;
+}
+
+.profile h3 {
+  font-size: 1.8rem;
+  color: var(--color-white-200);
+}
+
+.profile p {
+  font-size: 2rem;
+}

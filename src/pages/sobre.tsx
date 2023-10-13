@@ -16,12 +16,6 @@ const Sobre = () => {
             <h2>Hello World</h2>
 
             <p>
-              Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora). Sou
-              freelancer como Frontend Developer e UI Designer desde 2020. Sou
-              extremamente apaixonado por café e cultura japonesa.
-            </p>
-
-            <p>
               Minha primeira experiência com código foi na época em que todos
               tinham um Wix. Lembro-me de tentar encontrar uma maneira de mudar
               a cor de fundo e ter um texto chamativo. Eu costumava passar horas

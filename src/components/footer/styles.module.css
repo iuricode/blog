@@ -8,7 +8,7 @@
 .footer section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -26,21 +26,4 @@
 .footer a {
   font-weight: 500;
   padding: 0px 8px;
-}
-
-.footer img {
-  width: 32px;
-}
-
-@media screen and (max-width: 1140px) {
-  .footer section {
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: var(--gap-16) 0px;
-  }
-
-  .footer div:nth-child(2) {
-    display: none;
-  }
 }

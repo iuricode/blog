@@ -21,8 +21,10 @@
 }
 
 .containerNav nav a {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--color-white-200);
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .containerNav nav ul li a:hover {
