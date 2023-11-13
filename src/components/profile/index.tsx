@@ -15,7 +15,7 @@ const Profile = () => {
 
             <p>
               Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora). Sou
-              freelancer como Frontend Developer e UI Designer desde 2020. Sou
+              freelancer como Frontend Developer e UI Designer desde 2020,
               extremamente apaixonado por café e cultura japonesa.
             </p>
           </section>
