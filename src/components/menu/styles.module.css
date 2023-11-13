@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0px;
+  padding: 32px 0px;
 }
 
 .containerNav nav ul {
@@ -16,14 +16,9 @@
   gap: 48px;
 }
 
-.containerNav h2 {
-  font-size: 2.4rem;
-}
-
 .containerNav nav a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--color-white-200);
-  text-transform: uppercase;
   font-weight: 400;
 }
 
@@ -34,14 +29,11 @@
 .profileMenu {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .profileMenu img {
-  width: 56px;
-  height: 56px;
-  border-radius: 100%;
-  border: 2px solid var(--color-primary);
+  width: 150px;
 }
 
 @media screen and (max-width: 688px) {

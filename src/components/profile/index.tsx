@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import Image from "next/image";
 
 const Profile = () => {
   return (
@@ -8,10 +7,9 @@ const Profile = () => {
       <footer className={styles.profile}>
         <div className="containerMDX">
           <section>
-            <h2>Iuri Silva</h2>
+            <h2>Konichiwa, sou Iuri Silva 👋🏼</h2>
 
             <span>
-              <Image src="/globe.svg" alt="Logo globe" width="56" height="56" />
               <h3>Guarantã, Brasil</h3>
             </span>
 

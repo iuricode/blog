@@ -23,5 +23,7 @@
 }
 
 .profile p {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-white-100);
 }

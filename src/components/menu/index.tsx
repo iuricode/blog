@@ -8,22 +8,22 @@ const Menu = () => {
       <div className="containerMDX">
         <div className={styles.containerNav}>
           <div className={styles.profileMenu}>
-            <h2>iuricode</h2>
+            <img src="logo-iuricode.svg" alt="" />
           </div>
           <nav>
             <ul>
               <li>
-                <Link href="/">blog</Link>
+                <Link href="/">Blog</Link>
               </li>
               <li>
-                <Link href="/sobre">sobre</Link>
+                <Link href="/sobre">Sobre</Link>
               </li>
               <li>
-                <Link href="/setup">setup</Link>
+                <Link href="/setup">Setup</Link>
               </li>
               <li>
                 <Link href="https://www.iuricode.com/efront/" target="_blank">
-                  ebook
+                  eBook
                 </Link>
               </li>
             </ul>

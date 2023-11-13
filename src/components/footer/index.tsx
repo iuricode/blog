@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="containerMDX">
           <section>
             <p>
-              © 2022
+              © 2021
               <Link href="https://iuricode.com" target="_blank">
                 iuricode.com
               </Link>

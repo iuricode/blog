@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Footer from "../components/footer";
 import Menu from "../components/menu";
 import Head from "../infra/head";
 import styles from "../styles/sobre.module.css";
@@ -13,7 +12,7 @@ const Sobre = () => {
         <Menu />
         <section className="containerMDX containerPadding">
           <div className={styles.about}>
-            <h2>Hello World</h2>
+            <h2>Sobre mim</h2>
 
             <p>
               Minha primeira experiência com código foi na época em que todos
@@ -50,7 +49,6 @@ const Sobre = () => {
             </p>
           </div>
         </section>
-        <Footer />
       </div>
     </React.Fragment>
   );

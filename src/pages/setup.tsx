@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/footer";
 import Menu from "../components/menu";
 import Head from "../infra/head";
 import styles from "../styles/setup.module.css";
@@ -266,7 +265,6 @@ const Setup = () => {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     </React.Fragment>
   );
