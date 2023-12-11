@@ -8,7 +8,7 @@ const Menu = () => {
       <div className="containerMDX">
         <div className={styles.containerNav}>
           <div className={styles.profileMenu}>
-            <img src="logo-iuricode.svg" alt="" />
+            <img src="/logo-iuricode.svg" alt="" />
           </div>
           <nav>
             <ul>
